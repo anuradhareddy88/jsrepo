@@ -1,0 +1,41 @@
+/*custom_css*/
+/**{
+  margin: 0;
+  padding: 0;
+}*/
+
+body{
+  background: pink;
+  font-style: serif;
+  color:blue;
+  font-size: 40px;
+  text-align: center;
+}
+div#Beautiful,#smart{
+  background-color: white;
+  color:red;
+  font-family: sans-serif;
+}
+
+.primary-box{
+  background: #222;
+  color:orange;
+  font-size: 30px;
+  font-family: sans-serif;
+  margin: 0 0 30px;
+  padding: 5px;
+}
+.secondary-box{
+  background: lightgreen;
+  color:black;
+  font-size:30px;
+  font-family:monospace;
+  margin:0 0 60px;
+  padding: 5px
+}
+
+/* grouping selectors*/
+
+.inside-box h3, .inside-box p{
+  font-size: 20px;
+}
